@@ -13,13 +13,13 @@
 
 ## Core
 
-Create an API with the usual GET/PUT/POST/DELETE endpoints. 
+Create an API with the usual GET/PUT/POST/DELETE endpoints for students and a linked table containing details of courses the students are taking.
 
-The API should serve user data for students attending a bootcamp.
+The API should serve user data for students attending a bootcamp, they will only ever be on a single course at a time.
 
-The data for students should include:
+The data should include:
 
-* Unique ID
+* Unique ID for students
 * First Name
 * Last Name
 * Date of Birth
@@ -39,5 +39,5 @@ To assess this we will clone your repository, add our own credentials to the clo
 
 ## Extension
 
-In addition to the Student details add in details of different Courses and reference them from the Student details as a Foreign Key relationship. The endpoints for Courses should be completed as expected.
+Extend the course details by adding another set of endpoints for modules, that make up courses. Modules can be part of multiple courses at the same time (EG they might complete a GitHub module in various courses, but the module itself has the same content across courses.) Link these to the students and courses in whatever way logically works for you. What extra endpoints does it make sense for a student t be able to view, that will give them extra insights and an overview of their studies? Add them to your solution.
 
