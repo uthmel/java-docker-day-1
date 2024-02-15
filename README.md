@@ -25,7 +25,6 @@ The data should include:
 * Date of Birth
 * Course Title
 * Start Date for Course
-* Average Grade 
 
 Your API should connect to an ElephantSQL database instance that can be used for storing the data.
 
